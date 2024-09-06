@@ -8,7 +8,7 @@ public class Q1WeirdFunction {
             return n;
         }
         else{
-            return fRecursive(n-1) + 2*fRecursive(n-1) + 3*fRecursive(n-1);
+            return fRecursive(n-1) + 2*fRecursive(n-2) + 3*fRecursive(n-3);
         }
     }
 
